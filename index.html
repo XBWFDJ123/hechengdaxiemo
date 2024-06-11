@@ -27,8 +27,8 @@
     <meta name="360-fullscreen" content="true" />
 
     <!-- force screen orientation on some browser -->
-    <meta name="screen-orientation" content="yes" />
-    <meta name="x5-orientation" content="true" />
+    <meta name="screen-orientation" content="vertical" />
+    <meta name="x5-orientation" content="" />
 
     <!--fix fireball/issues/3568 -->
     <!--<meta name="browsermode" content="application">-->
@@ -56,7 +56,7 @@
         //判断是否是微信下访问
         if (ua.match(/MicroMessenger/i) == "micromessenger") {
             // if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-            location.href = "https://mp.weixin.qq.com/s/m0U0L-vnD0Gu8aPJ2vcPoA";
+            location.href = "";
             // }               
         }
     </script>
@@ -98,7 +98,7 @@
     </div>
 
     <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
-        <img src="res/loading.gif" width="7%" height="7%" />
+        <img src="res/loading.gif" width="10%" height="10%" />
     </div>
 
     <!-- 判断浏览器是否屏蔽广告 -->
